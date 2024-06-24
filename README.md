@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:904f09aaa4f3d55a0ddba5c4ae6cecc47d7983a8783f54788c26287bd0c660e3
-size 222
+👋 Hi, I’m @tolagh
+👀 I’m interested in Web2 and Web3 Space, DevOps is the new found love 😘
+💞️ I’m looking to collaborate on DevOps
+📫 How to reach me? - Via email: tol.lasey@gmail.com
