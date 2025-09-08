@@ -1,0 +1,46 @@
+# Coding Agent Configuration
+
+# Maximum line length for code files
+max_line_length: 100
+
+# Enable security checks
+check_security: true
+
+# Enable style checks
+check_style: true
+
+# Enable documentation checks
+check_documentation: true
+
+# File patterns to ignore during review
+ignore_patterns:
+  - "*.min.js"
+  - "node_modules/*"
+  - "__pycache__/*"
+  - "*.pyc"
+  - ".git/*"
+  - "venv/*"
+  - "env/*"
+  - "dist/*"
+  - "build/*"
+
+# Language-specific settings
+languages:
+  python:
+    max_complexity: 10
+    require_docstrings: true
+  
+  javascript:
+    prefer_const: true
+    no_var: true
+    strict_equality: true
+  
+  java:
+    max_method_length: 50
+    require_javadoc: true
+
+# Review output format
+output:
+  format: "console"  # console, json, html
+  include_suggestions: true
+  group_by_severity: true
